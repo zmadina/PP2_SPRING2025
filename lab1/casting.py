@@ -1,0 +1,7 @@
+a = int(-5.2)
+b = int("56")
+c = float(4)
+d = float("7.8")
+e = str("h4")
+f = str(42)
+print(a, b, c, d, e, f)

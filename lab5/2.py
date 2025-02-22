@@ -1,6 +1,5 @@
-
 import re
 text= input()
-pattern = r'а[б]*'
+pattern = r'аб{1,3}'
 result = re.findall(pattern, text)
 print(result)
